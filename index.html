@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS_Laras Ayu Anastasya</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>WELCOME TO CALQUEID</h1>
+
+<!-- header section starts  -->
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="Logo.jpeg" class="logo">Calqueid</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#products">Products</a>
+        <a href="#featured">Featured</a>
+        <a href="#review">Review</a>
+        <a href="#packaging">Packaging</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+    <div class="logo">
+        <img src="./Logo.jpeg" alt="">
+    </div>
+</header>
+<!-- header section ends -->
+
+<!-- home section starts  -->   
+<section class="home" id="home">
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <span>About Calqueid</span>
+                <h3>Thrift Store</h3>
+                <p>Calqueid adalah Thrift store dapat diartikan sebagai toko penghematan. Toko yang menjual barang bekas dari luar maupun dalam negeri. Sejak tahun 2013, perdagangan barang bekas mulai masuk ke Indonesia, dimulai dari barang langka hingga barang dengan brand yang terkenal.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="content">
+                <span>About Thrifting</span>
+                <h3>Thrifting</h3>
+                <p>Thrifting adalah kegiatan berbelanja demi mendapatkan harga barang yang lebih murah dan barang tidak biasa seperti selera pasar saat ini.Biasanya barang thrift hanya ada satu, jadi buat kalian bisa nih nyoba buat Thrifting memburu barang thrift, Thrifting di Calqueid kuy! </p>
+                <a href="#" class="btn">Read more</a>
+            </div>               
+
+                <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+                <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+           
+        </div>
+    </div>
+</section>
+<!-- home section ends -->
+
+<!-- gallery section starts  -->
+<section class="gallery" id="gallery">
+    <h1 class="heading"> gallery <span>product</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="./SG live TikTok/IMG_20240320_120252.jpg" alt="">     
+        </div>
+        <div class="box">    
+            <img src="./SG live TikTok/IMG_20240320_120324.jpg" alt="">  
+        </div>
+        <div class="box">
+            <img src="./SG live TikTok/IMG_20240320_120346.jpg" alt="">  
+        </div> 
+        <div class="box">
+            <img src="./SG live TikTok/IMG_20240320_120409.jpg" alt="">
+        </div>
+    </div>
+</section>
+<!-- gallery section ends  -->
+
+<!-- service section starts  -->
+<section class="service">
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Fast Delivery</h3>
+            <p>Dapatkan pesanan dengan cepat dan tepat waktu dengan layanan Fast Delivery kami. Kami menawarkan berbagai opsi pengiriman kilat untuk memastikan kenyamanan dan kepuasan.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-undo"></i>
+            <h3>10 Days Replacements</h3>
+            <p>Nikmati kemudahan penggantian barang dalam 10 hari. Jika tidak puas dengan produk, kami menyediakan proses penggantian yang cepat dan mudah.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24 x 7 Support</h3>
+            <p>Kami siap membantu kapan saja dengan layanan dukungan 24 x 7. Hubungi tim kami yang selalu tersedia untuk memastikan kebutuhan terpenuhi setiap saat.</p>
+        </div>
+    </div>
+</section>
+<!-- service section ends -->
+
+<!-- products section starts  -->
+<section class="products" id="products">
+    <h1 class="heading"> latest <span>products</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="product-1.jpeg" alt="">
+            <div class="content">
+                <h3>Oops!</h3>
+                <div class="price">Rp77.000<span>Rp118.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="product-2.jpeg" alt="">
+            <<div class="content">
+                <h3>Cloudstore</h3>
+                <div class="price">Rp73.000<span>Rp100.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="product-3.jpeg" alt="">
+            <div class="content">
+                <h3>Sponge</h3>
+                <div class="price">Rp75.000<span>Rp108.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="product-4.jpeg" alt="">
+            <div class="content">
+                <h3>Melo</h3>
+                <div class="price">Rp69.000<span>Rp87.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="product-5.jpeg" alt="">
+            <div class="content">
+                <h3>Project</h3>
+                <div class="price">Rp78.000<span>Rp119.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="product-6.jpeg" alt="">
+            <div class="content">
+                <h3>Gaga</h3>
+                <div class="price">Rp.79.000<span>Rp120.000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- products section ends -->
+
+<!-- featured section starts  -->
+<section class="featured" id="featured">
+    <h1 class="heading"> <span>featured</span> products </h1>
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="f-img-1.1.jpeg" class="featured-image-1" alt="">
+                <img src="f-img-1.2.jpeg" class="featured-image-1" alt="">
+                <img src="f-img-1.3.jpeg" class="featured-image-1" alt="">
+                <img src="f-img-1.4.jpeg" class="featured-image-1" alt="">
+            </div>
+            <div class="big-image">
+                <img src="./f-img-1.1.jpeg" class="big-image-1" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Topten</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <ul>
+                <li>kode T6 <br></li>
+                <li>brand : Topten<br></li>
+                <li>size (ld/pb) : 130/73 <br></li>
+                <li>rate condition :10 no minus</li> 
+            </ul>
+            <div class="price">Rp76.000 <span>Rp115.000</span></div>
+            <a href="#" class="btn">Add To Cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="f-img-2.1.jpeg" class="featured-image-2" alt="">
+                <img src="f-img-2.2.jpeg" class="featured-image-2" alt="">
+                <img src="f-img-2.3.jpeg" class="featured-image-2" alt="">
+                <img src="f-img-2.4.jpeg" class="featured-image-2" alt="">
+            </div>
+            <div class="big-image">
+                <img src="f-img-2.1.jpeg" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Keep it wild</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <ul>
+                <li>kode T10 <br></li>
+                <li>brand : keep it wild<br></li>
+                <li>size (ld/pb) : 128/75 <br></li>
+                <li>rate condition :10 no minus</li> 
+            </ul>
+            <div class="price">Rp79.000<span>Rp120.000</span></div>
+            <a href="#" class="btn">Add To Cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="f-img-3.1.jpeg" class="featured-image-3" alt="">
+                <img src="f-img-3.2.jpeg" class="featured-image-3" alt="">
+                <img src="f-img-3.3.jpeg" class="featured-image-3" alt="">
+                <img src="f-img-3.4.jpeg" class="featured-image-3" alt="">
+            </div>
+            <div class="big-image">
+                <img src="f-img-3.1.jpeg" class="big-image-3" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Brow Tie</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <ul>
+                <li>kode U6 <br></li>
+                <li>brand : brow tie <br></li>
+                <li>size (ld/pb) : 140/62 <br></li>
+                <li>rate condition :10 no minus</li> 
+            </ul>
+            <div class="price">Rp73.000<span>Rp106.000</span></div>
+            <a href="#" class="btn">Add To Cart</a>
+        </div>
+    </div>
+</section>
+<!-- featured section ends -->
+
+<!-- review section starts  -->
+<section class="review" id="review">
+    <h1 class="heading"> customer's <span>review</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="pic1.jpeg" alt="">
+            <h3>Intan Amelia</h3>
+            <p>Real pict banget kak, bagussss bangettttt! suka banget pokoknyaaa, dapet free giftnyaaa jugaaa, bakal belii lagii disini deh, manteppp polll!</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pic2.jpeg" alt="">
+            <h3>Laras Ayu Anastasya</h3>
+            <p>Suka bangett pokoknya real pict, paketnya wangi gak ada cacat sama sekali. Next order lagi dehh, udah dapet gift juga lagi maaciww kak!</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pic3.jpeg" alt="">
+            <h3>Della Aprilia</h3>
+            <p>Kak udah sampe baguss bangett! Bahannya lembut gak ngecewain, melebihi ekspektasi banget ini. Dapet gift juga soon bakalan order lagi!</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review section ends -->
+
+<!-- packaging section starts  -->
+<section class="packaging" id="packaging">
+    <h1 class="heading"> packaging <span>product</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="./Packaging/IMG_20240320_122420.jpg" alt="">    
+            <img src="./Packaging/IMG_20240320_122445.jpg" alt="">  
+            <img src="./Packaging/IMG_20240320_122459.jpg" alt="">  
+            <img src="./Packaging/IMG_20240320_122515.jpg" alt="">  
+            <img src="./Packaging/IMG_20240320_122534.jpg" alt="">  
+            <img src="./Packaging/IMG_20240320_122550.jpg" alt="">  
+        </div>
+    </div>
+</section>
+<!-- packaging section ends  -->
+
+<!-- newsletter section starts  -->
+<section class="newsletter">
+    <div class="content">
+        <h3>Monthly Newsletter</h3>
+        <p>Berlangganan Monthly Newsletter kami untuk mendapatkan berita terbaru, penawaran eksklusif, dan tips bermanfaat langsung ke kotak masuk setiap bulan.</p>
+        <form action="">
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </div>
+</section>
+<!-- newsletter section ends -->
+
+<!-- footer section  -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Our Stores</h3>
+            <a href="https://www.tokopedia.com/calque?utm_source=Android&utm_medium=Share&utm_campaign=Shop%20Share&_branch_match_id=1299179075225925417&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWd67wDQp2CS6KTEkCAM2C9skiAAAA">Tokopedia</a>
+            <a href="https://shopee.co.id/shop/386356165?utm_source=an_11358680000&utm_medium=affiliates&utm_campaign=-&utm_content=386356165----&utm_term=aumfb3x351yy">Shopee</a>
+            <a href="https://www.tiktok.com/@calque.id?_t=8aHJWI5DD2g&_r=1">Tiktok</a>
+            <a href="https://maps.app.goo.gl/LrZT1X56rPqUU7cB9">Google Maps</a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#featured">Featured</a>
+            <a href="#review">Review</a>
+        </div>
+
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#">My Account</a>
+            <a href="#">My Orders</a>
+            <a href="#">My Favorite</a>
+            <a href="#">Newsletter</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/share/zs8KWZEBwR4G9CJa/?mibextid=qi2Omg">Facebook</a>
+            <a href="https://mail.google.com/">Gmail</a>
+            <a href="https://www.instagram.com/calque.id/">Instagram</a>
+            <a href="https://api.whatsapp.com/message/UVPKOIYSZGJ3F1?autoload=1&app_absent=0">WhatsApp</a>
+        </div>
+
+        <div class="credit">Created By <span> Laras Ayu Anastasya </span> | @all rights reserved</div>
+    </div>
+</section>
+</body>
+</html>
